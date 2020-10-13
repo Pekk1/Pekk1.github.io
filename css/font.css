@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'MicrosoftSansSerif';
+  src: url('../fonts/Microsoft/MicrosoftSansSerif.svg#MicrosoftSansSerif') format('svg'),
+       url('../fonts/Microsoft/MicrosoftSansSerif.ttf') format('truetype'),
+       url('../fonts/Microsoft/MicrosoftSansSerif.woff') format('woff'),
+       url('../fonts/Microsoft/MicrosoftSansSerif.eot'),
+       url('../fonts/Microsoft/MicrosoftSansSerif.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Microsoft/MicrosoftSansSerif.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rtl';
+  src: url('../fonts/Rtlc-Font/RostelecomBasis-Light.svg') format('svg'),
+       url('../fonts/Rtlc-Font/RostelecomBasis-Light.ttf') format('truetype'),
+       url('../fonts/Rtlc-Font/RostelecomBasis-Light.woff') format('woff'),
+       url('../fonts/Rtlc-Font/RostelecomBasis-Light.eot'),
+       url('../fonts/Rtlc-Font/RostelecomBasis-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Rtlc-Font/RostelecomBasis-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Reef';
+  src: url('../fonts/Reef/Reef-Bold.eot'),
+       url('../fonts/Reef/Reef-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Reef/Reef-Bold.svg#Reef-Bold') format('svg'),
+       url('../fonts/Reef/Reef-Bold.ttf') format('truetype'),
+       url('../fonts/Reef/Reef-Bold.woff') format('woff'),
+       url('../fonts/Reef/Reef-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

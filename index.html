@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="full-screen" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Стили: основные, responsive, шрифты-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- Скрипты jQuery-->
+    <script src="jquery-3.4.1.min.js"></script>
+    <title>Будильник</title>
+</head>
+<body>
+    <header>
+        
+
+        <div class="nav"  >
+            <button class="tablinks" onclick="opentab(event, 'raspisanie')"><h4 class="tabtxt" id="santa">Расписание</h4></button>
+            <button class="tablinks" onclick="opentab(event, 'budilnik')" id="defaultOpen"><h4 class="tabtxt">Будильник</h4></button>
+            <button class="tablinks" onclick="opentab(event, 'customization')"><h4 class="tabtxt">Настройки</h4></button>
+        </div>
+
+
+
+    </header>
+
+    <div id="raspisanie" class="tabcontent">
+        <h1 class="tabtxt">В разработке</h1>
+    </div>
+
+    <div id="budilnik" class="tabcontent">
+        <main>
+            <div class="main_bud">
+                <ul id="spisokBud" class="spisok_bud">
+                </ul>
+            <button id="add_timer" class="addTimer"></button>
+            </div>
+        </main>
+    </div>
+
+    <div id="customization" class="tabcontent">
+        <main>
+            <dir class="base">
+                <dir class="wrap">
+                    <button class="theme" onclick="changeColor()">
+                    	<dir class="buttTop">
+                    		<h4 class="custtxt">Смена темы</h4>
+                    	</dir>
+                    	<dir class="buttBottom">
+                        	<div class="flag0">
+                        		<div class="point0">
+                        		</div>
+                        	</div>
+                        	<div class="flag1">
+                        		<div class="point1">
+                        		</div>                        		
+                        	</div>
+                        	<div class="flag2">
+                        		<div class="point2">
+                        		</div>                        		
+                        	</div>
+                        	<div class="flag3">
+                        		<div class="point3">
+                        		</div>                        		
+                        	</div>
+                        	<div class="flag4">
+                        		<div class="point4">
+                        		</div>                        		
+                        	</div>
+                    	</dir>
+                    </button>
+                </dir>
+                <dir class="wrap">
+                    <button class="buttCust">
+                        <h4 class="custtxt">Смена мелодии</h4>
+                    </button>
+                </dir>
+                <dir class="wrap">
+                    <button class="buttCust">
+                        <h4 class="custtxt">О разработчиках</h4>
+                    </button>
+                </dir>
+            </dir>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

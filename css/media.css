@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+  .main_bud .spisok_bud .budilnik {
+    padding: 0 5px; }
+  .bud_header #time {
+    margin-top: 5px;
+    font-size: 28px; }
+  .bud_header #info {
+    font-size: 16px; }
+  .switch {
+    top: 20px; }
+  .main_bud .spisok_bud .budilnik .expanded_div .bud_footer {
+    font-size: 12px;
+    min-width: 290px;
+    max-width: 90%;
+    bottom: 40px; }
+    .main_bud .spisok_bud .budilnik .expanded_div .bud_footer #za_skolko_text {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; }
+      .main_bud .spisok_bud .budilnik .expanded_div .bud_footer #za_skolko_text span {
+        margin-right: 7px;
+        font-size: 14px; }
+      .main_bud .spisok_bud .budilnik .expanded_div .bud_footer #za_skolko_text select {
+        width: 65px;
+        margin-right: 5px; }
+        .main_bud .spisok_bud .budilnik .expanded_div .bud_footer #za_skolko_text select:active {
+          color: #000; }
+  .main_bud .spisok_bud .budilnik .expanded_div #del {
+    display: block;
+    bottom: 5px;
+    left: 0;
+    padding-left: 15%;
+    width: 80%; } }
+
+@media screen and (min-width: 800px) {
+  body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
